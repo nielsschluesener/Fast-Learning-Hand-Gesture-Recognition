@@ -33,7 +33,7 @@ All steps completed in the project can be reviewed in the jupyter *notebooks* pu
         - [5way-1shot_deployment_param.pkl](deployment/models/5way-1shot_deployment_param.pkl): Deployment-relevant information such as the number of LSTM-cells or number of units in the FeedForward layer.
         - [5way-1shot_feature_encoder.pkl](deployment/models/5way-1shot_feature_encoder.pkl): Meta trained weights and biases of the 5-way, 1-shot Embedding module.
         - [5way-1shot_relation_network.pkl](deployment/models/5way-1shot_relation_network.pkl): Meta trained weights and biases of the 5-way, 1-shot Relation module.
-    - [mvp_gcolab](deployment/mvp_gcolab): MVP to test any model without the need to install packages or clone the repo on a local machine.
+    - [mvp_gcolab.ipynb](deployment/mvp_gcolab.ipynb): MVP to test any model without the need to install packages or clone the repo on a local machine.
 
 ## How can I integrate a model in my application?
 
