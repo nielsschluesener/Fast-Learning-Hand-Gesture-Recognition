@@ -1,8 +1,8 @@
-# *S*upport-*S*et *T*uned *R*ecoginition of *Han*d *Ge*stures
+# Fast Learning Hand Gesture Recocgnition
 
-## What is S-STRHanGe?
+## What is this repo about?
 
-S-STRHanGe is a set of Few Shot Learning models, pretrained to recognize up to ten different dynamic hand gestures. It allows for easy adjustment to your individual hand gestures by providing a support set of one, two or five samples for each gestures. Unlike other image-based approaches which often require depth-maps, S-STRHanGe runs on RGB data only, by utilizing *mediapipe's* (GOOGLE LLC, 2020) hand-keypoints extraction. The models' architecture is inspired by Sung et al.'s *Relation Network* presented in 2018, which bases its predictions on the so-called relation scores. See the visualization for the rough functionality of the model and a little hint about the models' namesake. ;-)
+This repo provides a set of Few Shot Learning models, pretrained to recognize up to ten different dynamic hand gestures. It allows for easy adjustment to your individual hand gestures by providing a support set of one, two or five samples for each gestures. Unlike other image-based approaches which often require depth-maps, the models provided in this repo run on RGB data exclusively, by utilizing *mediapipe's* (GOOGLE LLC, 2020) hand-keypoints extraction. The models' architecture is inspired by Sung et al.'s *Relation Network* presented in 2018, which bases its predictions on the so-called relation scores. See the visualization for the rough functionality.
 
 
 ![](readme_imgs/sstrhange.gif)
@@ -13,7 +13,7 @@ Each model is trained on up to 13,5-thousand tasks, whereas each task was to dis
 |:--------:|:-------------:|:-------------:|:-------------:|:--------------:|:--------------:|:--------------:|
 | Accuracy |     77,3%     |     84,0%     |     88,8%     |      70,3%     |      75,7%     |      81,2%     |
 
-S-STRHanGe is part of my master thesis at the FH-Muenster, therefore the content presented in the notebooks goes well beyond a simple model training. Much effort has been put into the data analysis, data preparation and hyperparameter-tuning. In addition, this project quantifies the savings in samples when tweaking a S-STRHanGe model on a new set of hand gestures compared to training a classic Deep Learning model. 
+The models are part of my master thesis at the FH-Muenster, therefore the content presented in the notebooks goes well beyond a simple model training. Much effort has been put into the data analysis, data preparation and hyperparameter-tuning. In addition, this project quantifies the savings in samples when tweaking a FSL model on a new set of hand gestures compared to training a standard Deep Learning model. 
 
 ## What to find in this repo?
 
